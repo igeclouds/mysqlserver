@@ -1,0 +1,3 @@
+deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/debian/11/prod bullseye main
+deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/ubuntu/20.04/mssql-server-2019 focal main
+deb [arch=amd64,armhf,arm64] https://packages.microsoft.com/ubuntu/20.04/prod focal main
