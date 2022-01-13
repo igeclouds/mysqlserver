@@ -22,6 +22,20 @@ abesnier/mssql | My SQL Server 2019 container image.
 ## using docker-compose
 Have a look at the sample [docker-compose.yml](https://github.com/abesnier/docker-mssql/blob/main/docker-compose.yml)
 
+## check running version
+`docker exec -it mssql sqlcmd -U SA -P <YourStrongPassword> -Q "SELECT @@VERSION"`
+
+Output should look like this:
+
+```
+Microsoft SQL Server 2019 (RTM-CU14) (KB5007182) - 15.0.4188.2 (X64) 
+Nov  3 2021 19:19:51 
+Copyright (C) 2019 Microsoft Corporation
+Developer Edition (64-bit) on Linux (Debian GNU/Linux 11 (bullseye)) <X64>                                                                                          
+
+(1 rows affected)
+```
+
 
 # License
 This Docker image install the Developper edition of MS Sql Server 2019.
