@@ -17,7 +17,7 @@ Parameter | Description
 -h sql1 | Used to explicitly set the container hostname. If you don't specify the hostname, it defaults to the container ID, which is a randomly generated system GUID.
 abesnier/mssql | My SQL Server 2019 container image.
 
-(shamelessly copied from [MS Instructions](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash)
+(shamelessly copied from [MS Instructions](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash))
 
 ## using docker-compose
 Have a look at the sample [docker-compose.yml](https://github.com/abesnier/docker-mssql/blob/main/docker-compose.yml)
