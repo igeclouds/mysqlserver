@@ -2,14 +2,14 @@ version: '3'
 services:
   mssql:
     container_name: mssql
-    image: abesnier/mssql
+    image: image: mcr.microsoft.com/mssql/server:latest
 # may need to run as root to be able to specify proper volume path
 # https://stackoverflow.com/questions/65601077/unable-to-run-sql-server-2019-docker-with-volumes-and-get-error-setup-failed-co
     user: root
     ports:
       - "1433:1433"
     volumes:
-      - "./host/path/to/db/folder:/var/opt/mssql/data/"
+      -- ./container_db:/var/opt/mssql/data
     environment:
       - ACCEPT_EULA=Y
-      - SA_PASSWORD=<YourStrongP@ssw0rd>
+      - SA_PASSWORD=p=1$uzoJNhPSvX4z/gTXOTm/tg$JzIb85WuRxmXtjoyJBQ2UNbkaJ9/AEcRGyl0BPWcOEo
