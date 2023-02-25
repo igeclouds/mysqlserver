@@ -1,7 +1,7 @@
 version: '3'
 services:
   mssql:
-    container_name: mssql
+    container_name: mysqlserver
     image: image: mcr.microsoft.com/mssql/server:latest
 # may need to run as root to be able to specify proper volume path
 # https://stackoverflow.com/questions/65601077/unable-to-run-sql-server-2019-docker-with-volumes-and-get-error-setup-failed-co
