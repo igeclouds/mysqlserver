@@ -1,6 +1,6 @@
 version: '3'
 services:
-  mssql:
+  mysql:
     container_name: mysqlserver
     image: image: mcr.microsoft.com/mssql/server:latest
 # may need to run as root to be able to specify proper volume path
