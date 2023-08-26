@@ -8,7 +8,7 @@
 #
 # 2022-01-13 : first issue
 
-FROM debian:stable-slim
+FROM debian:bullseye-slim
 
 LABEL maintainer="Antoine Besnier <nouanda@laposte.net>"
 
@@ -24,7 +24,7 @@ RUN wget -O microsoft.asc https://packages.microsoft.com/keys/microsoft.asc --no
 
 COPY ./mssql-server.list /etc/apt/sources.list.d/mssql-server.list
 
-RUN apt-get update && apt-get install -y mssql-server mssql-tools unixodbc-dev --no-install-recommends
+RUN apt-get update && apt-get install -y mssql-server mssql-tools18 unixodbc-dev --no-install-recommends
 
 RUN apt-get purge -y wget ca-certificates && rm -rf /var/lib/apt/lists/*
 
