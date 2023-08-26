@@ -29,15 +29,16 @@ Have a look at the sample [docker-compose.yml](https://github.com/abesnier/docke
 
 Output should look like this:
 
-```
-Microsoft SQL Server 2019 (RTM-CU14) (KB5007182) - 15.0.4188.2 (X64) 
-Nov  3 2021 19:19:51 
+```                                                                                                                                                                     
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Microsoft SQL Server 2019 (RTM-CU22) (KB5027702) - 15.0.4322.2 (X64) 
+Jul 27 2023 18:11:00 
 Copyright (C) 2019 Microsoft Corporation
-Developer Edition (64-bit) on Linux (Debian GNU/Linux 11 (bullseye)) <X64>                                                                                          
-
+Developer Edition (64-bit) on Linux (Debian GNU/Linux 11 (bullseye)) <X64>
+ 
 (1 rows affected)
 ```
-
 
 # License
 This Docker image installs the Developper edition of MS Sql Server 2019.
