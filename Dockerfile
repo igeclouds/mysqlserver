@@ -28,6 +28,6 @@ RUN apt-get update && apt-get install -y mssql-server mssql-tools18 unixodbc-dev
 
 RUN apt-get purge -y wget ca-certificates && rm -rf /var/lib/apt/lists/*
 
-ENV PATH="/opt/mssql-tools/bin:${PATH}"
+ENV PATH="/opt/mssql-tools18/bin:${PATH}"
 
 CMD ["/opt/mssql/bin/sqlservr"]
