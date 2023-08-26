@@ -1,5 +1,5 @@
 # What is it?
-This is a minimal Docker image for Microsoft SQL Server 2019, built over Debian Stable Slim.
+This is a minimal Docker image for Microsoft SQL Server 2019, built over Debian Old Stable Slim.
 
 https://hub.docker.com/r/abesnier/mssql
 
@@ -40,6 +40,6 @@ Developer Edition (64-bit) on Linux (Debian GNU/Linux 11 (bullseye)) <X64>
 
 
 # License
-This Docker image install the Developper edition of MS Sql Server 2019.
+This Docker image installs the Developper edition of MS Sql Server 2019.
 
-SQL Server is licensed the same for Linux and Windows. For more information about SQL Server licensing and pricing, see [How to license SQL Server](https://www.microsoft.com/sql-server/sql-server-2017-pricing).
+SQL Server licensed is the same for Linux and Windows. For more information about SQL Server licensing and pricing, see [How to license SQL Server](https://www.microsoft.com/sql-server/sql-server-2019-pricing).
