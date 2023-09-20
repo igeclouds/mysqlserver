@@ -10,7 +10,7 @@
 
 FROM debian:stable-slim
 
-LABEL maintainer="Antoine Besnier <nouanda@laposte.net>"
+LABEL maintainer=Moses Fabiyi @igeclouds
 
 ENV ACCEPT_EULA=Y
 
