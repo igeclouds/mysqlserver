@@ -1,5 +1,5 @@
 # What is it?
-This is a minimal Docker image for Microsoft SQL Server 2019, built over Debian Stable Slim.
+This is a minimal Docker image for Microsoft SQL Server 2019, built over Debian Old Stable Slim.
 
 https://hub.docker.com/r/igeclouds/mysqlserver
 
@@ -29,17 +29,18 @@ Have a look at the sample [docker-compose.yml](https://github.com/abesnier/docke
 
 Output should look like this:
 
-```
-Microsoft SQL Server 2019 (RTM-CU14) (KB5007182) - 15.0.4188.2 (X64) 
-Nov  3 2021 19:19:51 
+```                                                                                                                                                                     
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Microsoft SQL Server 2019 (RTM-CU22) (KB5027702) - 15.0.4322.2 (X64) 
+Jul 27 2023 18:11:00 
 Copyright (C) 2019 Microsoft Corporation
-Developer Edition (64-bit) on Linux (Debian GNU/Linux 11 (bullseye)) <X64>                                                                                          
-
+Developer Edition (64-bit) on Linux (Debian GNU/Linux 11 (bullseye)) <X64>
+ 
 (1 rows affected)
 ```
 
-
 # License
-This Docker image install the Developper edition of MS Sql Server 2019.
+This Docker image installs the Developper edition of MS Sql Server 2019.
 
-SQL Server is licensed the same for Linux and Windows. For more information about SQL Server licensing and pricing, see [How to license SQL Server](https://www.microsoft.com/sql-server/sql-server-2017-pricing).
+SQL Server licensed is the same for Linux and Windows. For more information about SQL Server licensing and pricing, see [How to license SQL Server](https://www.microsoft.com/sql-server/sql-server-2019-pricing).
